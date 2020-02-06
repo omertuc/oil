@@ -95,7 +95,7 @@ function tagBookmarks {
 
 function openInBrowser {
 	url=${urlAndIndex%|*}
-	xdg-open "$url"
+	screen -d -m xdg-open "$url"
 }
 
 function forEachBookmark {
